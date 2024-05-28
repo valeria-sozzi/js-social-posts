@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 3, 40);
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 5rem auto;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.card{
+    width: 500px;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+img{
+    max-width: 100%;
+    background-size: cover;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile_image{
+    padding: 0.5rem 1rem;
+}
+
+.profile_image>img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.post_image{
+    padding: 0.5rem 1rem;
+}
+
+.text{
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+.author{
+    font-size: 1.1rem;
+}
+.bold{
+    font-weight: bold;
+}
+
+.date{
+    font-weight:light;
+    font-size: 0.8rem;
+    color: gray;
+    padding-top: 0.2rem;
+}
+
+.like{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.like>.btn_likes{
+    border: none;
+    background-color: transparent;
+}
