@@ -80,3 +80,19 @@ img{
     border: none;
     background-color: transparent;
 }
+
+.btn_color{
+    color: lightskyblue;
+}
+
+.bg_profile{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(8, 8, 105);
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+}
